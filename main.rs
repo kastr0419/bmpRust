@@ -4,6 +4,10 @@ use std::io::prelude::*; //ファイル入出力ライブラリ
 std::io::BufReader; 
 
 struct FileHeader{
-    u8:data[file_header_size];
+    filesize:u32,
+    offset: u32,
+}
+
+struct bitmapinfoheader{
     
 }
