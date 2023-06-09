@@ -7,7 +7,3 @@ struct FileHeader{
     u8:data[file_header_size];
     
 }
-
-fn main() {
-    println!("Hello, world!");
-}
